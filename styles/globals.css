@@ -13,4 +13,31 @@ a {
 
 * {
   box-sizing: border-box;
+  list-style-type: none;
+}
+.btn{
+  border: none;
+  padding: 16px 15px;
+  background-color:#e50914;
+  color: #fff;
+  font-size:16px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.footer-icon{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: rgb(48, 47, 47);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.subscribe{
+  background:linear-gradient(#000000a6,#000000a6), url('/subscribe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
